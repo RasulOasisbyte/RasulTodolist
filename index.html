@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <center><title>Task Master To-Do App</title></center>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Master
+                 <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 18px; font-weight:dark bold;">
+                                          <br>by Rasul
+                </h1>
+            
+            <center><img src="To do list.jpg" alt="Task Master Logo" class="logo"></center>
+        </header>
+        <div class="input-container">
+            <center><input type="text" id="taskInput" placeholder="Add a new task...">
+                <br></center>
+                  <br>
+            <center>  <button id="addTaskBtn">Add Task</button></center>
+        </div>
+
+        <div class="tasks">
+            <h2>Pending Tasks</h2>
+            <ul id="pendingTasks"></ul>
+            <h2>Completed Tasks</h2>
+            <ul id="completedTasks"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
